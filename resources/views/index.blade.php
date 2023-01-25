@@ -48,6 +48,10 @@
                             </div>
                         @endforeach
 
+                <div>
+                     {{$posts->links()}}   {{-- for pagination ui --}}
+                </div>
+
             </div>
         </div>
     </div>
